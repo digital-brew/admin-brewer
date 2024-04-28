@@ -1,0 +1,29 @@
+{
+  "name": "digital-brew/admin-brewer",
+  "description": "Clean up and add new options in WP Admin area.",
+  "keywords": ["themosis", "plugin"],
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Rafal Pajak",
+      "email": "rafal@digitalbrew.io",
+      "homepage": "https://digitalbrew.io"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "repositories":[
+    {
+      "type":"composer",
+      "url":"https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "composer/installers" : "^2.2"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}
